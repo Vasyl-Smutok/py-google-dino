@@ -32,8 +32,8 @@ FPS = 40
 win_width = 800
 win_height = 500
 
-dino = Dino("dino.png", 70, 180)
-cactus = pygame.transform.scale(pygame.image.load("cactus.png"), (100, 100))
+dino = Dino("images/dino.png", 70, 180)
+cactus = pygame.transform.scale(pygame.image.load("images/cactus.png"), (100, 100))
 screen = pygame.display.set_mode((win_width, win_height))
 pygame.display.set_caption("Dino")
 clock = pygame.time.Clock()
